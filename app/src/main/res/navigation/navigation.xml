@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigations"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/findNetworkFragment"
+        android:name="com.devsync.numberfinder.ui.fragments.FindNetworkFragment"
+        android:label="fragment_find_network"
+        tools:layout="@layout/fragment_find_network" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.devsync.numberfinder.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_numberLocatorFragment"
+            app:destination="@id/numberLocatorFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_searchCoordinatesFragment"
+            app:destination="@id/searchCoordinatesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_simInfoFragment"
+            app:destination="@id/simInfoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_worldProfilesFragment"
+            app:destination="@id/worldProfilesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_findTrafficFragment"
+            app:destination="@id/findTrafficFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_findNetworkFragment"
+            app:destination="@id/findNetworkFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_nearbyPlacesFragment"
+            app:destination="@id/nearbyPlacesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nearbyPlacesFragment"
+        android:name="com.devsync.numberfinder.ui.fragments.NearbyPlacesFragment"
+        android:label="fragment_nearby_places"
+        tools:layout="@layout/fragment_nearby_places" />
+    <fragment
+        android:id="@+id/numberLocatorFragment"
+        android:name="com.devsync.numberfinder.ui.fragments.NumberLocatorFragment"
+        android:label="fragment_number_locator"
+        tools:layout="@layout/fragment_number_locator" />
+    <fragment
+        android:id="@+id/searchCoordinatesFragment"
+        android:name="com.devsync.numberfinder.ui.fragments.SearchCoordinatesFragment"
+        android:label="fragment_search_coordinates"
+        tools:layout="@layout/fragment_search_coordinates" />
+    <fragment
+        android:id="@+id/simInfoFragment"
+        android:name="com.devsync.numberfinder.ui.fragments.SimInfoFragment"
+        android:label="fragment_sim_info"
+        tools:layout="@layout/fragment_sim_info" />
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.devsync.numberfinder.ui.fragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_requiredPermissionsFragment"
+            app:destination="@id/requiredPermissionsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/worldProfilesFragment"
+        android:name="com.devsync.numberfinder.ui.fragments.WorldProfilesFragment"
+        android:label="fragment_world_profiles"
+        tools:layout="@layout/fragment_world_profiles" />
+    <fragment
+        android:id="@+id/findTrafficFragment"
+        android:name="com.devsync.numberfinder.ui.fragments.FindTrafficFragment"
+        android:label="fragment_find_traffic"
+        tools:layout="@layout/fragment_find_traffic" />
+    <fragment
+        android:id="@+id/requiredPermissionsFragment"
+        android:name="com.devsync.numberfinder.ui.fragments.RequiredPermissionsFragment"
+        android:label="fragment_required_permissions"
+        tools:layout="@layout/fragment_required_permissions" >
+        <action
+            android:id="@+id/action_requiredPermissionsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

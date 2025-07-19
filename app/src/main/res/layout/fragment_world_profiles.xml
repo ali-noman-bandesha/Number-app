@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.WorldProfilesFragment">
+
+    <include
+        android:id="@+id/included_gradient"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        layout="@layout/curve_layout"
+        />
+
+    <ImageView
+        android:id="@+id/backIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        app:layout_constraintTop_toTopOf="@id/home_text"
+        app:layout_constraintBottom_toBottomOf="@id/home_text"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/back_icon"
+        />
+
+    <TextView
+        android:id="@+id/home_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/worldProfiles"
+        app:layout_constraintStart_toEndOf="@id/backIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/quicksand_bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="@id/home_text"
+        app:layout_constraintTop_toBottomOf="@id/home_text"
+
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/quicksand_regular"
+        android:text="@string/worldProfilesDescription"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/search_country_et_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/find_network_et_bg"
+        android:elevation="2dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/included_gradient"
+        >
+        <EditText
+            android:id="@+id/searchCountryEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="13dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/quicksand_bold"
+            android:textSize="16sp"
+            android:textColor="@color/textColor"
+            android:hint="@string/SearchCountry"
+            android:inputType="textCapWords"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:layout_toStartOf="@+id/searchCountryIcon"
+            />
+        <ImageView
+            android:id="@+id/searchCountryIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="13dp"
+            />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/countriesView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/search_country_et_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        tools:listitem="@layout/countries_recycler_item_design"
+        />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/countryNotFound"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintTop_toBottomOf="@id/search_country_et_layout"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/number_item_bg"
+        android:elevation="2dp"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/countryFlag"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_margin="10dp"
+            android:src="@drawable/not_found_icon"
+            android:fontFamily="@font/quicksand_bold"
+            android:textSize="16sp"
+            android:textColor="#777777"
+
+            />
+
+
+        <TextView
+            android:id="@+id/countryNameTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/countryFlag"
+            android:layout_marginStart="20dp"
+            android:text="@string/countryNotFound"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/countryInfoBottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bottom_sheet_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="1dp"
+        app:layout_constraintTop_toBottomOf="@id/included_gradient"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/countryNameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:fontFamily="@font/quicksand_bold"
+            android:textSize="18sp"
+            android:textColor="#777777"
+            android:text="Country"
+
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imgBG"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintTop_toBottomOf="@id/countryNameView">
+
+            <ImageView
+                android:id="@+id/flagBanner"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/find_network_et_bg"
+                android:scaleType="fitXY"
+                android:src="@color/black" />
+        </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgBG"
+            app:layout_constraintBottom_toTopOf="@+id/bottomView">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:text="Country Name"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/centerBar1"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <View
+                        android:id="@+id/centerBar1"
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#888888"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/CountryProfileName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:lineSpacingExtra="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="30dp"
+                        android:text="Not available"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/centerBar1"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/layout1"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:text="ISO Code"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/centerBar2"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <View
+                        android:id="@+id/centerBar2"
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#888888"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/countryISOCode"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:lineSpacingExtra="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="30dp"                        android:text="Not available"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/centerBar2"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/layout2"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:text="Location"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/centerBar3"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <View
+                        android:id="@+id/centerBar3"
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#888888"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/countryLocation"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:lineSpacingExtra="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="30dp"                        android:text="Not available"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/centerBar3"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/layout3"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:text="Capital City"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/centerBar4"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <View
+                        android:id="@+id/centerBar4"
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#888888"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/countryCapitalCity"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:lineSpacingExtra="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="30dp"
+                        android:text="Not available"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/centerBar4"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/layout4"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:text="National Language"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/centerBar5"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <View
+                        android:id="@+id/centerBar5"
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#888888"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/countryNationalLanguage"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:lineSpacingExtra="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="30dp"                        android:text="Not available"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/centerBar5"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/layout5"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:text="Currency"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/centerBar6"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <View
+                        android:id="@+id/centerBar6"
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#888888"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/countryCurrency"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:lineSpacingExtra="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="30dp"                        android:text="Not available"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/centerBar6"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/layout6"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:text="Area"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/centerBar7"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <View
+                        android:id="@+id/centerBar7"
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#888888"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/countryArea"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:lineSpacingExtra="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="30dp"                        android:text="Not available"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/centerBar7"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/layout7"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:text="Official Religion"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/centerBar8"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <View
+                        android:id="@+id/centerBar8"
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#888888"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/countryOfficialReligion"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:lineSpacingExtra="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="30dp"                        android:text="Not available"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/centerBar8"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/layout8"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:text="Police Number"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/centerBar9"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <View
+                        android:id="@+id/centerBar9"
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#888888"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/countryPoliceNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:lineSpacingExtra="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="30dp"                        android:text="Not available"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/centerBar9"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/layout9"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:text="Fire Brigade Number"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/centerBar10"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <View
+                        android:id="@+id/centerBar10"
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#888888"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/countryFireNumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:lineSpacingExtra="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="30dp"                        android:text="Not available"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/centerBar10"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/layout11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/layout10"
+
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="@font/quicksand_regular"
+                        android:text="National Animal"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/centerBar11"
+                        app:layout_constraintTop_toTopOf="parent"
+
+                        />
+
+                    <View
+                        android:id="@+id/centerBar11"
+                        android:layout_width="1dp"
+                        android:layout_height="30dp"
+                        android:background="#888888"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                    <TextView
+                        android:id="@+id/countryNationalAnimal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/quicksand_bold"
+                        android:lineSpacingExtra="10sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:layout_marginEnd="30dp"                        android:text="Not available"
+                        android:textColor="#777777"
+                        android:textSize="12sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/centerBar11"
+                        app:layout_constraintTop_toTopOf="parent"
+
+
+                        />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+        <View
+            android:id="@+id/bottomView"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/scrollView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/selectCountryCard"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/number_item_bg"
+    android:layout_margin="4dp"
+    android:elevation="2dp">
+    <ImageView
+        android:id="@+id/selectCountryFlag"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/near_by_place_icon"
+        android:layout_margin="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/selectCountryNameTV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/selectCountryFlag"
+        app:layout_constraintEnd_toStartOf="@id/countryCodeTV"
+        android:layout_marginStart="20dp"
+        android:text="Pakistan"
+        />
+    <TextView
+        android:id="@+id/countryCodeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="20dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

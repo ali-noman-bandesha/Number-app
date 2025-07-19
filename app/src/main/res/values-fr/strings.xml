@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NuméroApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="Number">Number</string>
+    <string name="Locator">Localisatrice</string>
+    <string name="Home">Home</string>
+    <string name="HomeDescription" >Découvrezl\'emplacement précis de n\'importe quel numéro de téléphoneavec notre application Number Locator</string>
+    <string name="NumberLocator">Localisateur de numéros</string>
+    <string name="NumberLocatorDetails">Localisez toute personne par numéro de téléphone.</string>
+    <string name="RateApp">Application de taux</string>
+    <string name="shareApp" >Partagerl\'application</string>
+    <string name="privacyPolicy">politique de confidentialité</string>
+    <string name="settings">Paramètres</string>
+    <string name="permissionMessage">Certaines ou toutes les autorisations requises ont été refusées. \n Autoriser manuellement</string>
+    <string name="ok">d\'accord</string>
+    <string name="no">Non</string>
+    <string name="simInfo">Informations sur les Sims</string>
+    <string name="simDescription">Informations sur l\'aide de la carte SIM.</string>
+    <string name="findNetwork">Trouver un réseau</string>
+    <string name="networkDescription">Recherchez et trouvez un réseau de n\'importe quel numéro.</string>
+    <string name="searchCoordinates">Rechercher des coordonnées</string>
+    <string name="coordinatesDescription">Recherchez n\'importe quel endroit par latitude et longitude.</string>
+    <string name="findTraffic">Rechercher du trafic</string>
+    <string name="findTrafficDescription">Recherchez et trouvez des détails sur le trafic n\'importe où.</string>
+    <string name="nearByPlaces">Lieux à proximité</string>
+    <string name="placesDescription">Recherchez n\'importe quel endroit à proximité de chez vous par catégorie.</string>
+    <string name="worldProfiles">Profils mondiaux</string>
+    <string name="worldProfilesDescription">Obtenez des informations sur tous les pays.</string>
+    <string name="invalidNumber">Numéro invalide.</string>
+    <string name="invalidNumberToast">Entrez un numéro valide.</string>
+    <string name="selectCountryFirstToast">Sélectionnez d\'abord le pays.</string>
+    <string name="enterNumberToast">Veuillez d\'abord entrer le numéro</string>
+    <string name="networkNotFoundToast">Désolé, réseau introuvable</string>
+    <string name="startLocationError">veuillez sélectionner le lieu de départ.</string>
+    <string name="endLocationError">veuillez sélectionner l\'emplacement de destination</string>
+    <string name="invalidLat">Latitude invalide</string>
+    <string name="invalidLng">Longitude invalide</string>
+    <string name="search">Recherche</string>
+    <string name="selectCountryCode">Sélectionnez le code du pays</string>
+    <string name="enterNumber">Entrer un nombre</string>
+    <string name="yourLocation">Votre emplacement</string>
+    <string name="destination">Destination</string>
+    <string name="banks">Banques</string>
+    <string name="atm">AU M</string>
+    <string name="Hospital">Hôpital</string>
+    <string name="Gas">Gaz</string>
+    <string name="PoliceStations">Postes de police</string>
+    <string name="FireStations">Casernes de pompiers</string>
+    <string name="Locate">Localiser</string>
+    <string name="EnterLatitude">Entrez la latitude</string>
+    <string name="EnterLongitude">Entrez la longitude</string>
+    <string name="SearchCountry">Rechercher un pays</string>
+    <string name="SelectCountry">Choisissez le pays</string>
+    <string name="languages">Langages</string>
+    <string name="selectNetwork">Sélectionnez un réseau</string>
+    <string name="gpsMsg">Activer le GPS ?</string>
+    <string name="numberLong">Le numéro est trop long</string>
+    <string name="numberSHort">Le numéro est trop court</string>
+    <string name="countryNotFound">Pays introuvable</string>
+    <string name="searchCoordinatesDescription">Recherchez n\'importe quel endroit par latitude et longitude.</string>
+    <string name="mapNotInstalled">L\'application Google Maps n\'est pas installée sur l\'appareil.</string>
+    <string name="requestPermission">Autorisations requises</string>
+    <string name="accept">Accepter</string>
+    <string name="errorFetching">Erreur lors de la récupération de l\'emplacement</string>
+    <string name="locationPermissionDetails">Pour utiliser cette application, nous avons besoin de cette autorisation afin de trouver votre position actuelle.</string>
+    <string name="internetPermissionDetails">Nous avons besoin de cette autorisation pour accéder à votre emplacement.</string>
+    <string name="gpsToast">Il semble que l autorisation de localisation ne soit pas accordée ou que le GPS de l appareil soit désactivé. Nous vous recommandons d autoriser ces autorisations à partir des paramètres de l appareil si vous souhaitez que le point de départ soit votre emplacement actuel pour cette fonctionnalité.</string>
+    <string name="interToast">Pas de connexion Internet</string>
+
+
+
+</resources>

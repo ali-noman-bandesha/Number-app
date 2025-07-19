@@ -1,0 +1,2313 @@
+[
+    {
+      "name": "Uzbekistan",
+      "policeNumber": "Call 102",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Snow Leopard",
+      "famousLandmarks": "Registan, Samarkand",
+      "currencyCode": "UZS"
+    },
+    {
+      "name": "Austria",
+      "policeNumber": "Call 133",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 122",
+      "nationalAnimal": "Eagle",
+      "famousLandmarks": "Schönbrunn Palace",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Sierra Leone",
+      "policeNumber": "Call 999",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 019",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Bunce Island",
+      "currencyCode": "SLL"
+    },
+    {
+      "name": "Cocos (Keeling) Islands",
+      "policeNumber": "Call 000",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 000",
+      "nationalAnimal": "Cocos Buff-banded Rail",
+      "famousLandmarks": "Cossies Beach",
+      "currencyCode": "AUD"
+    },
+    {
+      "name": "Mauritania",
+      "policeNumber": "Call 117",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Arabian Camel",
+      "famousLandmarks": "Arguin Bank National Park",
+      "currencyCode": "MRU"
+    },
+    {
+      "name": "Israel",
+      "policeNumber": "Call 100",
+      "majorReligion": "Judaism",
+      "fireBrigadeNumber": "Call 102",
+      "nationalAnimal": "Israeli Gazelle",
+      "famousLandmarks": "Western Wall",
+      "currencyCode": "ILS"
+    },
+    {
+      "name": "Moldova",
+      "policeNumber": "Call 902",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 901",
+      "nationalAnimal": "Aurochs",
+      "famousLandmarks": "Milestii Mici",
+      "currencyCode": "MDL"
+    },
+    {
+      "name": "Fiji",
+      "policeNumber": "Call 917",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Fijian Iguana",
+      "famousLandmarks": "Sigatoka Sand Dunes",
+      "currencyCode": "FJD"
+    },
+    {
+      "name": "Serbia",
+      "policeNumber": "Call 192",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 193",
+      "nationalAnimal": "Wolf",
+      "famousLandmarks": "Belgrade Fortress",
+      "currencyCode": "RSD"
+    },
+    {
+      "name": "Cameroon",
+      "policeNumber": "Call 117",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "African Lion",
+      "famousLandmarks": "Waza National Park",
+      "currencyCode": "XAF"
+    },
+    {
+      "name": "Bahamas",
+      "policeNumber": "Call 919",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 919",
+      "nationalAnimal": "Blue Marlin",
+      "famousLandmarks": "Atlantis Paradise Island",
+      "currencyCode": "BSD"
+    },
+    {
+      "name": "Nauru",
+      "policeNumber": "Call 110",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 110",
+      "nationalAnimal": "Dugong",
+      "famousLandmarks": "Command Ridge",
+      "currencyCode": "AUD"
+    },
+    {
+      "name": "Czechia",
+      "policeNumber": "Call 158",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 150",
+      "nationalAnimal": "Double-tailed Lion",
+      "famousLandmarks": "Prague Castle",
+      "population": "10,708,981",
+      "currencyCode": "CZK"
+    },
+    {
+      "name": "Egypt",
+      "policeNumber": "Call 122",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 180",
+      "nationalAnimal": "Steppe Eagle",
+      "famousLandmarks": "Pyramids of Giza",
+      "currencyCode": "EGP"
+    },
+    {
+      "name": "Myanmar",
+      "policeNumber": "Call 199",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 191",
+      "nationalAnimal": "Asian Elephant",
+      "famousLandmarks": "Bagan",
+      "currencyCode": "MMK"
+    },
+    {
+      "name": "Netherlands",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Keukenhof",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Uruguay",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 104",
+      "nationalAnimal": "Southern Lapwing",
+      "famousLandmarks": "Plaza Independencia",
+      "currencyCode": "UYU"
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Coconut Crab",
+      "famousLandmarks": "Managaha Island",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "Central African Republic",
+      "policeNumber": "Call 117",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "African Elephant",
+      "famousLandmarks": "Manovo-Gounda St Floris National Park",
+      "currencyCode": "XAF"
+    },
+    {
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Saint Helena Plover",
+      "famousLandmarks": "Longwood House",
+      "currencyCode": "SHP"
+    },
+    {
+      "name": "Equatorial Guinea",
+      "policeNumber": "Call 116",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Gorilla",
+      "famousLandmarks": "Monte Alen National Park",
+      "currencyCode": "XAF"
+    },
+    {
+      "name": "Colombia",
+      "policeNumber": "Call 123",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 119",
+      "nationalAnimal": "Andean Condor",
+      "famousLandmarks": "Cartagena",
+      "currencyCode": "COP"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "policeNumber": "Call 102",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Snow Leopard",
+      "famousLandmarks": "Burana Tower",
+      "currencyCode": "KGS"
+    },
+    {
+      "name": "Spain",
+      "policeNumber": "Call 091",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 080",
+      "nationalAnimal": "Bull",
+      "famousLandmarks": "Sagrada Familia",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Malawi",
+      "policeNumber": "Call 997",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 998",
+      "nationalAnimal": "Nyala",
+      "famousLandmarks": "Lake Malawi",
+      "currencyCode": "MWK"
+    },
+    {
+      "name": "Hungary",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Turul",
+      "famousLandmarks": "Buda Castle",
+      "currencyCode": "HUF"
+    },
+    {
+      "name": "Monaco",
+      "policeNumber": "Call 17",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Barbary Lion",
+      "famousLandmarks": "Monte Carlo Casino",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Cape Verde",
+      "policeNumber": "Call 132",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 131",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Praia de Santa Maria",
+      "currencyCode": "CVE"
+    },
+    {
+      "name": "South Africa",
+      "policeNumber": "Call 10111",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 10177",
+      "nationalAnimal": "Springbok",
+      "famousLandmarks": "Table Mountain",
+      "currencyCode": "ZAR"
+    },
+    {
+      "name": "Denmark",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Mute Swan",
+      "famousLandmarks": "Tivoli Gardens",
+      "currencyCode": "DKK"
+    },
+    {
+      "name": "Guadeloupe",
+      "policeNumber": "Call 17",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Royal Tern",
+      "famousLandmarks": "La Soufriere",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Ireland",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Red Deer",
+      "famousLandmarks": "Cliffs of Moher",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Malta",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Maltese Honey Bee",
+      "famousLandmarks": "Megalithic Temples of Malta",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Tonga",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Turtle Dove",
+      "famousLandmarks": "Ha'amonga 'a Maui",
+      "currencyCode": "TOP"
+    },
+    {
+      "name": "San Marino",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 115",
+      "nationalAnimal": "Three-toed Sloth",
+      "famousLandmarks": "Mount Titano",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Vatican City",
+      "policeNumber": "Call 113",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 115",
+      "nationalAnimal": "N/A",
+      "famousLandmarks": "St. Peter's Basilica",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Suriname",
+      "policeNumber": "Call 115",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 110",
+      "nationalAnimal": "Giant River Otter",
+      "famousLandmarks": "Central Suriname Nature Reserve",
+      "currencyCode": "SRD"
+    },
+    {
+      "name": "Wallis and Futuna",
+      "policeNumber": "Call 17",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Wallis and Futuna Flying Fox",
+      "famousLandmarks": "Lake Lalolalo",
+      "currencyCode": "XPF"
+    },
+    {
+      "name": "Mali",
+      "policeNumber": "Call 17",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Roan Antelope",
+      "famousLandmarks": "Great Mosque of Djenné",
+      "currencyCode": "XOF"
+    },
+    {
+      "name": "Saint Barthélemy",
+      "policeNumber": "Call 17",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Brown Pelican",
+      "famousLandmarks": "Gustavia",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Gibraltar",
+      "policeNumber": "Call 199",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 190",
+      "nationalAnimal": "Barbary Macaque",
+      "famousLandmarks": "Rock of Gibraltar",
+      "currencyCode": "GIP"
+    },
+    {
+      "name": "Canada",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Beaver",
+      "famousLandmarks": "CN Tower",
+      "currencyCode": "CAD"
+    },
+    {
+      "name": "Benin",
+      "policeNumber": "Call 117",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "African Elephant",
+      "famousLandmarks": "Royal Palaces of Abomey",
+      "currencyCode": "XOF"
+    },
+    {
+      "name": "Guam",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Coconut Crab",
+      "famousLandmarks": "Tumon Beach",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "North Korea",
+      "policeNumber": "Call 119",
+      "majorReligion": "Irreligious",
+      "fireBrigadeNumber": "Call 119",
+      "nationalAnimal": "Chollima",
+      "famousLandmarks": "Juche Tower",
+      "currencyCode": "KPW"
+    },
+    {
+      "name": "Tuvalu",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Tuvalu Pigeon",
+      "famousLandmarks": "Funafuti Marine Conservation Area",
+      "currencyCode": "AUD"
+    },
+    {
+      "name": "Panama",
+      "policeNumber": "Call 104",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 103",
+      "nationalAnimal": "Harpy Eagle",
+      "famousLandmarks": "Panama Canal",
+      "currencyCode": "PAB"
+    },
+    {
+      "name": "Rwanda",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Rwandan Leopard",
+      "famousLandmarks": "Volcanoes National Park",
+      "currencyCode": "RWF"
+    },
+    {
+      "name": "Republic of the Congo",
+      "policeNumber": "Call 117",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Okapi",
+      "famousLandmarks": "Brazzaville",
+      "currencyCode": "XAF"
+    },
+    {
+      "name": "Jamaica",
+      "policeNumber": "Call 119",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 110",
+      "nationalAnimal": "Doctor Bird",
+      "famousLandmarks": "Dunn's River Falls",
+      "currencyCode": "JMD"
+    },
+    {
+      "name": "Bahrain",
+      "policeNumber": "Call 999",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Arabian Oryx",
+      "famousLandmarks": "Bahrain National Museum",
+      "currencyCode": "BHD"
+    },
+    {
+      "name": "Sint Maarten",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Brown Pelican",
+      "famousLandmarks": "Maho Beach",
+      "currencyCode": "ANG"
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Turks and Caicos Rock Iguana",
+      "famousLandmarks": "Grace Bay Beach",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "Pakistan",
+      "policeNumber": "Call 15",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 16",
+      "nationalAnimal": "Markhor",
+      "famousLandmarks": "Badshahi Mosque",
+      "currencyCode": "PKR"
+    },
+    {
+      "name": "Kazakhstan",
+      "policeNumber": "Call 102",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Golden Eagle",
+      "famousLandmarks": "Charyn Canyon",
+      "currencyCode": "KZT"
+    },
+    {
+      "name": "Laos",
+      "policeNumber": "Call 191",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 190",
+      "nationalAnimal": "Elephant",
+      "famousLandmarks": "Pha That Luang",
+      "currencyCode": "LAK"
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 990",
+      "nationalAnimal": "Scarlet Ibis",
+      "famousLandmarks": "Maracas Beach",
+      "currencyCode": "TTD"
+    },
+    {
+      "name": "Montenegro",
+      "policeNumber": "Call 122",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 123",
+      "nationalAnimal": "Golden Eagle",
+      "famousLandmarks": "Kotor Old Town",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Niue",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Eoa",
+      "famousLandmarks": "Limu Pools",
+      "currencyCode": "NZD"
+    },
+    {
+      "name": "Liberia",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Sapo National Park",
+      "currencyCode": "LRD"
+    },
+    {
+      "name": "Grenada",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Grenada Dove",
+      "famousLandmarks": "Grand Anse Beach",
+      "currencyCode": "XCD"
+    },
+    {
+      "name": "Papua New Guinea",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 110",
+      "nationalAnimal": "Dugong",
+      "famousLandmarks": "Kokoda Track",
+      "currencyCode": "PGK"
+    },
+    {
+      "name": "Chad",
+      "policeNumber": "Call 17",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Goat",
+      "famousLandmarks": "Zakouma National Park",
+      "currencyCode": "XAF"
+    },
+    {
+      "name": "Chile",
+      "policeNumber": "Call 133",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 132",
+      "nationalAnimal": "Andean condor",
+      "famousLandmarks": "Easter Island",
+      "currencyCode": "CLP"
+    },
+    {
+      "name": "Puerto Rico",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Coqui",
+      "famousLandmarks": "El Yunque National Forest",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "Saudi Arabia",
+      "policeNumber": "Call 999",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 998",
+      "nationalAnimal": "Arabian horse",
+      "famousLandmarks": "Mecca",
+      "currencyCode": "SAR"
+    },
+    {
+      "name": "Norway",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 110",
+      "nationalAnimal": "Elk",
+      "famousLandmarks": "Fjords of Norway",
+      "currencyCode": "NOK"
+    },
+    {
+      "name": "Gambia",
+      "policeNumber": "Call 117",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Hippopotamus",
+      "famousLandmarks": "Kachikally Museum and Crocodile Pool",
+      "currencyCode": "GMD"
+    },
+    {
+      "name": "Philippines",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Carabao",
+      "famousLandmarks": "Banaue Rice Terraces",
+      "currencyCode": "PHP"
+    },
+    {
+      "name": "Isle of Man",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Manx Cat",
+      "famousLandmarks": "Peel Castle",
+      "currencyCode": "GBP"
+    },
+    {
+      "name": "Portugal",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Iberian Wolf",
+      "famousLandmarks": "Belem Tower",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Honduras",
+      "policeNumber": "Call 199",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 198",
+      "nationalAnimal": "White-Tailed Deer",
+      "famousLandmarks": "Maya Site of Copan",
+      "currencyCode": "HNL"
+    },
+    {
+      "name": "Cyprus",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Cypriot Mouflon",
+      "famousLandmarks": "Tombs of the Kings",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Anguilla",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Dolphin",
+      "famousLandmarks": "Shoal Bay",
+      "currencyCode": "XCD"
+    },
+    {
+      "name": "Liberia",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Sapo National Park",
+      "currencyCode": "LRD"
+    },
+    {
+      "name": "Heard Island and McDonald Islands",
+      "policeNumber": "N/A",
+      "majorReligion": "N/A",
+      "fireBrigadeNumber": "N/A",
+      "nationalAnimal": "Penguins",
+      "famousLandmarks": "Big Ben",
+      "currencyCode": "AUD"
+    },
+    {
+      "name": "Togo",
+      "policeNumber": "Call 117",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Togo Viper",
+      "famousLandmarks": "Koutammakou",
+      "currencyCode": "XOF"
+    },
+    {
+      "name": "Lebanon",
+      "policeNumber": "Call 112",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 175",
+      "nationalAnimal": "Striped Hyena",
+      "famousLandmarks": "Jeita Grotto",
+      "currencyCode": "LBP"
+    },
+    {
+      "name": "Morocco",
+      "policeNumber": "Call 19",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 15",
+      "nationalAnimal": "Barbary Lion",
+      "famousLandmarks": "Hassan II Mosque",
+      "currencyCode": "MAD"
+    },
+    {
+      "name": "Estonia",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Estonian Barn Swallow",
+      "famousLandmarks": "Tallinn Old Town",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Faroe Islands",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Faroe Pony",
+      "famousLandmarks": "Mulafossur Waterfall",
+      "currencyCode": "DKK"
+    },
+    {
+      "name": "Argentina",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Rufous Hornero",
+      "famousLandmarks": "Iguazu Falls",
+      "currencyCode": "ARS"
+    },
+    {
+      "name": "Gabon",
+      "policeNumber": "Call 1730",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Black Panther",
+      "famousLandmarks": "Loango National Park",
+      "currencyCode": "XAF"
+    },
+    {
+      "name": "Namibia",
+      "policeNumber": "Call 10111",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Oryx",
+      "famousLandmarks": "Namib Desert",
+      "currencyCode": "NAD"
+    },
+    {
+      "name": "Vietnam",
+      "policeNumber": "Call 113",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 114",
+      "nationalAnimal": "Water Buffalo",
+      "famousLandmarks": "Ha Long Bay",
+      "currencyCode": "VND"
+    },
+    {
+      "name": "Greece",
+      "policeNumber": "Call 100",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 199",
+      "nationalAnimal": "Dolphin",
+      "famousLandmarks": "Acropolis of Athens",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "British Virgin Islands",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Caribbean flamingo",
+      "famousLandmarks": "The Baths, Virgin Gorda",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "Mozambique",
+      "policeNumber": "Call 119",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 198",
+      "nationalAnimal": "Giant Sable Antelope",
+      "famousLandmarks": "Bazaruto Archipelago",
+      "currencyCode": "MZN"
+    },
+    {
+      "name": "Norfolk Island",
+      "policeNumber": "Call 000",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 000",
+      "nationalAnimal": "Green Parrot",
+      "famousLandmarks": "Kingston Pier",
+      "currencyCode": "AUD"
+    },
+    {
+      "name": "South Georgia",
+      "policeNumber": "N/A",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "N/A",
+      "nationalAnimal": "South Georgia Pipit",
+      "famousLandmarks": "Grytviken",
+      "currencyCode": "GBP"
+    },
+    {
+      "name": "Armenia",
+      "policeNumber": "Call 102",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Armenian Gampr dog",
+      "famousLandmarks": "Garni Temple",
+      "currencyCode": "AMD"
+    },
+    {
+      "name": "Kenya",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Maasai Mara National Reserve",
+      "currencyCode": "KES"
+    },
+    {
+      "name": "Bhutan",
+      "policeNumber": "Call 113",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Takin",
+      "famousLandmarks": "Tiger's Nest Monastery",
+      "currencyCode": "BTN"
+    },
+    {
+      "name": "United Arab Emirates",
+      "policeNumber": "Call 999",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 997",
+      "nationalAnimal": "Arabian Oryx",
+      "famousLandmarks": "Burj Khalifa",
+      "currencyCode": "AED"
+    },
+    {
+      "name": "Cook Islands",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Rarotonga Flycatcher",
+      "famousLandmarks": "Avarua",
+      "currencyCode": "NZD"
+    },
+    {
+      "name": "Ethiopia",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 939",
+      "nationalAnimal": "Ethiopian Wolf",
+      "famousLandmarks": "Simien Mountains National Park",
+      "currencyCode": "ETB"
+    },
+    {
+      "name": "Singapore",
+      "policeNumber": "Call 999",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 995",
+      "nationalAnimal": "Merlion",
+      "famousLandmarks": "Marina Bay Sands",
+      "currencyCode": "SGD"
+    },
+    {
+      "name": "Peru",
+      "policeNumber": "Call 105",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 116",
+      "nationalAnimal": "Vicuña",
+      "famousLandmarks": "Machu Picchu",
+      "currencyCode": "PEN"
+    },
+    {
+      "name": "Palestine",
+      "policeNumber": "Call 100",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 100",
+      "nationalAnimal": "Palestinian Sunbird",
+      "famousLandmarks": "Dome of the Rock",
+      "currencyCode": "ILS"
+    },
+    {
+      "name": "Samoa",
+      "policeNumber": "Call 995",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 994",
+      "nationalAnimal": "Samoa Flying Fox",
+      "famousLandmarks": "To Sua Ocean Trench",
+      "currencyCode": "WST"
+    },
+    {
+      "name": "South Sudan",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "African Fish Eagle",
+      "famousLandmarks": "Boma National Park",
+      "currencyCode": "SSP"
+    },
+    {
+      "name": "Andorra",
+      "policeNumber": "Call 110",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Pyrenean Chamois",
+      "famousLandmarks": "Casa de la Vall",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Saint Martin",
+      "policeNumber": "Call 17",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Antillean Crested Hummingbird",
+      "famousLandmarks": "Maho Beach",
+      "currencyCode": "ANG"
+    },
+    {
+      "name": "Eswatini",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Mlawula Nature Reserve",
+      "currencyCode": "SZL"
+    },
+    {
+      "name": "Tajikistan",
+      "policeNumber": "Call 102",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Marco Polo Sheep",
+      "famousLandmarks": "Ismoil Somoni Peak",
+      "currencyCode": "TJS"
+    },
+    {
+      "name": "Zambia",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "African Fish Eagle",
+      "famousLandmarks": "Victoria Falls",
+      "currencyCode": "ZMW"
+    },
+    {
+      "name": "United States",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Bald Eagle",
+      "famousLandmarks": "Statue of Liberty",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "Burundi",
+      "policeNumber": "Call 117",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Red-Necked Spurfowl",
+      "famousLandmarks": "Kibira National Park",
+      "currencyCode": "BIF"
+    },
+    {
+      "name": "Japan",
+      "policeNumber": "Call 110",
+      "majorReligion": "Shintoism",
+      "fireBrigadeNumber": "Call 119",
+      "nationalAnimal": "Green Pheasant",
+      "famousLandmarks": "Mount Fuji",
+      "currencyCode": "JPY"
+    },
+    {
+      "name": "Curacao",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Troupial",
+      "famousLandmarks": "Queen Emma Bridge",
+      "currencyCode": "ANG"
+    },
+    {
+      "name": "Uganda",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Grey Crowned Crane",
+      "famousLandmarks": "Bwindi Impenetrable National Park",
+      "currencyCode": "UGX"
+    },
+    {
+      "name": "Mongolia",
+      "policeNumber": "Call 102",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Takhi",
+      "famousLandmarks": "Gobi Desert",
+      "currencyCode": "MNT"
+    },
+    {
+      "name": "Nigeria",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Eagle",
+      "famousLandmarks": "Zuma Rock",
+      "currencyCode": "NGN"
+    },
+    {
+      "name": "Guatemala",
+      "policeNumber": "Call 110",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 123",
+      "nationalAnimal": "Quetzal",
+      "famousLandmarks": "Tikal",
+      "currencyCode": "GTQ"
+    },
+    {
+      "name": "Jersey",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Bottle-nosed Dolphin",
+      "famousLandmarks": "Mont Orgueil",
+      "currencyCode": "GBP"
+    },
+    {
+      "name": "Costa Rica",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "White-tailed Deer",
+      "famousLandmarks": "Arenal Volcano",
+      "currencyCode": "CRC"
+    },
+    {
+      "name": "Yemen",
+      "policeNumber": "Call 194",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 191",
+      "nationalAnimal": "Arabian Leopard",
+      "famousLandmarks": "Socotra Archipelago",
+      "currencyCode": "YER"
+    },
+    {
+      "name": "Greenland",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Polar Bear",
+      "famousLandmarks": "Ilulissat Icefjord",
+      "currencyCode": "DKK"
+    },
+    {
+      "name": "Madagascar",
+      "policeNumber": "Call 117",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Aye-Aye",
+      "famousLandmarks": "Avenue of the Baobabs",
+      "currencyCode": "MGA"
+    },
+    {
+      "name": "Algeria",
+      "policeNumber": "Call 17",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 14",
+      "nationalAnimal": "Fennec Fox",
+      "famousLandmarks": "Hoggar Mountains",
+      "currencyCode": "DZD"
+    },
+    {
+      "name": "Belgium",
+      "policeNumber": "Call 101",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Grand Place, Brussels",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Sri Lanka",
+      "policeNumber": "Call 118",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 110",
+      "nationalAnimal": "Sri Lankan Elephant",
+      "famousLandmarks": "Sigiriya",
+      "currencyCode": "LKR"
+    },
+    {
+      "name": "Finland",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Brown Bear",
+      "famousLandmarks": "Northern Lights",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Bermuda",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Humpback Whale",
+      "famousLandmarks": "Horseshoe Bay Beach",
+      "currencyCode": "BMD"
+    },
+    {
+      "name": "North Macedonia",
+      "policeNumber": "Call 192",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 193",
+      "nationalAnimal": "Macedonian Lynx",
+      "famousLandmarks": "Lake Ohrid",
+      "currencyCode": "MKD"
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Saint Vincent Amazon",
+      "famousLandmarks": "Tobago Cays",
+      "currencyCode": "XCD"
+    },
+    {
+      "name": "Niger",
+      "policeNumber": "Call 17",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Gazelle",
+      "famousLandmarks": "W National Park",
+      "currencyCode": "XOF"
+    },
+    {
+      "name": "British Indian Ocean Territory",
+      "policeNumber": "N/A",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "N/A",
+      "nationalAnimal": "Coconut Crab",
+      "famousLandmarks": "Diego Garcia Atoll",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "Latvia",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 110",
+      "nationalAnimal": "White Wagtail",
+      "famousLandmarks": "Rundale Palace",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Nepal",
+      "policeNumber": "Call 100",
+      "majorReligion": "Hinduism",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Cow",
+      "famousLandmarks": "Mount Everest",
+      "currencyCode": "NPR"
+    },
+    {
+      "name": "Ivory Coast",
+      "policeNumber": "Call 111",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 180",
+      "nationalAnimal": "African Elephant",
+      "famousLandmarks": "Basilica of Our Lady of Peace",
+      "currencyCode": "XOF"
+    },
+    {
+      "name": "Liechtenstein",
+      "policeNumber": "Call 117",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Golden Eagle",
+      "famousLandmarks": "Vaduz Castle",
+      "currencyCode": "CHF"
+    },
+    {
+      "name": "DR Congo",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Okapi",
+      "famousLandmarks": "Virunga National Park",
+      "currencyCode": "CDF"
+    },
+    {
+      "name": "Belize",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Tapir",
+      "famousLandmarks": "Great Blue Hole",
+      "currencyCode": "BZD"
+    },
+    {
+      "name": "Qatar",
+      "policeNumber": "Call 999",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Arabian Oryx",
+      "famousLandmarks": "The Pearl-Qatar",
+      "currencyCode": "QAR"
+    },
+    {
+      "name": "Tokelau",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Blue Lorikeet",
+      "famousLandmarks": "Nukunonu",
+      "currencyCode": "NZD"
+    },
+    {
+      "name": "Indonesia",
+      "policeNumber": "Call 110",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 113",
+      "nationalAnimal": "Komodo Dragon",
+      "famousLandmarks": "Borobudur Temple",
+      "currencyCode": "IDR"
+    },
+    {
+      "name": "French Polynesia",
+      "policeNumber": "Call 17",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Gallic Rooster",
+      "famousLandmarks": "Bora Bora",
+      "currencyCode": "XPF"
+    },
+    {
+      "name": "Lesotho",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 121",
+      "nationalAnimal": "Black Rhinoceros",
+      "famousLandmarks": "Thaba Bosiu",
+      "currencyCode": "LSL"
+    },
+    {
+      "name": "Poland",
+      "policeNumber": "Call 997",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 998",
+      "nationalAnimal": "White Eagle",
+      "famousLandmarks": "Wawel Castle",
+      "currencyCode": "PLN"
+    },
+    {
+      "name": "Palau",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Palau Fruit Dove",
+      "famousLandmarks": "Rock Islands",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "Guernsey",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Donkey",
+      "famousLandmarks": "Castle Cornet",
+      "currencyCode": "GBP"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Fallow Deer",
+      "famousLandmarks": "Nelson's Dockyard",
+      "currencyCode": "XCD"
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "policeNumber": "Call 17",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Harbor Seal",
+      "famousLandmarks": "Pointe aux Canons Lighthouse",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Kosovo",
+      "policeNumber": "Call 192",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 193",
+      "nationalAnimal": "Golden Eagle",
+      "famousLandmarks": "Gazimestan",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Western Sahara",
+      "policeNumber": "Call 19",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 15",
+      "nationalAnimal": "Dromedary",
+      "famousLandmarks": "Saguia el-Hamra",
+      "countryCode": "ESH"
+    },
+    {
+      "name": "Luxembourg",
+      "policeNumber": "Call 113",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Bock Casemates",
+      "countryCode": "LUX"
+    },
+    {
+      "name": "Taiwan",
+      "policeNumber": "Call 110",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 119",
+      "nationalAnimal": "Formosan Black Bear",
+      "famousLandmarks": "Taroko National Park",
+      "countryCode": "TWN"
+    },
+    {
+      "name": "Hong Kong",
+      "policeNumber": "Call 999",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Bauhinia blakeana",
+      "famousLandmarks": "Victoria Peak",
+      "countryCode": "HKG"
+    },
+    {
+      "name": "Turkmenistan",
+      "policeNumber": "Call 02",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 01",
+      "nationalAnimal": "Akhal-Teke Horse",
+      "famousLandmarks": "Darvaza Gas Crater",
+      "countryCode": "TKM"
+    },
+    {
+      "name": "Russia",
+      "policeNumber": "Call 102",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Brown Bear",
+      "famousLandmarks": "Saint Basil's Cathedral",
+      "countryCode": "RUS"
+    },
+    {
+      "name": "Azerbaijan",
+      "policeNumber": "Call 102",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Karabakh Horse",
+      "famousLandmarks": "Maiden Tower",
+      "countryCode": "AZE"
+    },
+    {
+      "name": "Ecuador",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Andean Condor",
+      "famousLandmarks": "Galápagos Islands",
+      "countryCode": "ECU"
+    },
+    {
+      "name": "Cambodia",
+      "policeNumber": "Call 117",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Kouprey",
+      "famousLandmarks": "Angkor Wat",
+      "countryCode": "KHM"
+    },
+    {
+      "name": "Mayotte",
+      "policeNumber": "Call 17",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Green Sea Turtle",
+      "famousLandmarks": "Saziley National Park",
+      "countryCode": "MYT"
+    },
+    {
+      "name": "Botswana",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Zebra",
+      "famousLandmarks": "Okavango Delta",
+      "countryCode": "BWA"
+    },
+    {
+      "name": "Croatia",
+      "policeNumber": "Call 192",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 193",
+      "nationalAnimal": "Pine Marten",
+      "famousLandmarks": "Dubrovnik Old Town",
+      "countryCode": "HRV"
+    },
+    {
+      "name": "Saint Lucia",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Amazona Versicolor",
+      "famousLandmarks": "Pitons",
+      "countryCode": "LCA"
+    },
+    {
+      "name": "Paraguay",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Jaguar",
+      "famousLandmarks": "Iguazu Falls",
+      "countryCode": "PRY"
+    },
+    {
+      "name": "Bolivia",
+      "policeNumber": "Call 110",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Llama",
+      "famousLandmarks": "Salar de Uyuni",
+      "countryCode": "BOL"
+    },
+    {
+      "name": "Maldives",
+      "policeNumber": "Call 119",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Blue Whale",
+      "famousLandmarks": "Ari Atoll",
+      "countryCode": "MDV"
+    },
+    {
+      "name": "American Samoa",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "American Samoa Flying Fox",
+      "famousLandmarks": "Pago Pago",
+      "countryCode": "ASM"
+    },
+    {
+      "name": "Iceland",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Gyrfalcon",
+      "famousLandmarks": "Blue Lagoon",
+      "countryCode": "ISL"
+    },
+    {
+      "name": "Slovakia",
+      "policeNumber": "Call 158",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 150",
+      "nationalAnimal": "White Stork",
+      "famousLandmarks": "Bratislava Castle",
+      "countryCode": "SVK"
+    },
+    {
+      "name": "French Southern and Antarctic Lands",
+      "policeNumber": "N/A",
+      "majorReligion": "N/A",
+      "fireBrigadeNumber": "N/A",
+      "nationalAnimal": "Southern Elephant Seal",
+      "famousLandmarks": "Glaciologist Station",
+      "countryCode": "ATF"
+    },
+    {
+      "name": "Brunei",
+      "policeNumber": "Call 993",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 995",
+      "nationalAnimal": "Proboscis Monkey",
+      "famousLandmarks": "Sultan Omar Ali Saifuddien Mosque",
+      "countryCode": "BRN"
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Brown Pelican",
+      "famousLandmarks": "Brimstone Hill Fortress",
+      "countryCode": "KNA"
+    },
+    {
+      "name": "Afghanistan",
+      "policeNumber": "Call 119",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 119",
+      "nationalAnimal": "Snow Leopard",
+      "famousLandmarks": "Bamiyan Valley",
+      "countryCode": "AFG"
+    },
+    {
+      "name": "Ghana",
+      "policeNumber": "Call 191",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 192",
+      "nationalAnimal": "Golden Eagle",
+      "famousLandmarks": "Cape Coast Castle",
+      "countryCode": "GHA"
+    },
+    {
+      "name": "Kuwait",
+      "policeNumber": "Call 112",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Camel",
+      "famousLandmarks": "Kuwait Towers",
+      "countryCode": "KWT"
+    },
+    {
+      "name": "Svalbard and Jan Mayen",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 110",
+      "nationalAnimal": "Polar Bear",
+      "famousLandmarks": "Svalbard Global Seed Vault",
+      "countryCode": "SJM"
+    },
+    {
+      "name": "Bangladesh",
+      "policeNumber": "Call 999",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Bengal Tiger",
+      "famousLandmarks": "Sundarbans",
+      "countryCode": "BGD"
+    },
+    {
+      "name": "Guyana",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 912",
+      "nationalAnimal": "Jaguar",
+      "famousLandmarks": "Kaieteur Falls",
+      "countryCode": "GUY"
+    },
+    {
+      "name": "Kiribati",
+      "policeNumber": "Call 192",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 193",
+      "nationalAnimal": "Frigatebird",
+      "famousLandmarks": "Phoenix Islands Protected Area",
+      "countryCode": "KIR"
+    },
+    {
+      "name": "Guernsey",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Donkey",
+      "famousLandmarks": "Castle Cornet",
+      "currencyCode": "GBP",
+      "countryCode": "GGY"
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Fallow Deer",
+      "famousLandmarks": "Nelson's Dockyard",
+      "currencyCode": "XCD",
+      "countryCode": "ATG"
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "policeNumber": "Call 17",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Harbor Seal",
+      "famousLandmarks": "Pointe aux Canons Lighthouse",
+      "currencyCode": "EUR",
+      "countryCode": "SPM"
+    },
+    {
+      "name": "Kosovo",
+      "policeNumber": "Call 192",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 193",
+      "nationalAnimal": "Golden Eagle",
+      "famousLandmarks": "Gazimestan",
+      "currencyCode": "EUR",
+      "countryCode": "XKX"
+    },
+    {
+      "name": "Barbados",
+      "policeNumber": "Call 211",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 311",
+      "nationalAnimal": "Green Monkey",
+      "famousLandmarks": "Harrison's Cave",
+      "countryCode": "BRB"
+    },
+    {
+      "name": "Albania",
+      "policeNumber": "Call 129",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 128",
+      "nationalAnimal": "Golden Eagle",
+      "famousLandmarks": "Gjirokastër Castle",
+      "countryCode": "ALB"
+    },
+    {
+      "name": "Pitcairn Islands",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Pitcairn Islands Honeyeater",
+      "famousLandmarks": "Bounty Bay",
+      "countryCode": "PCN"
+    },
+    {
+      "name": "Burkina Faso",
+      "policeNumber": "Call 17",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Red-Billed Hornbill",
+      "famousLandmarks": "Loropeni",
+      "countryCode": "BFA"
+    },
+    {
+      "name": "Macau",
+      "policeNumber": "Call 999",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Chinese White Dolphin",
+      "famousLandmarks": "Ruins of St. Paul's",
+      "countryCode": "MAC"
+    },
+    {
+      "name": "Seychelles",
+      "policeNumber": "Call 133",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Aldabra Giant Tortoise",
+      "famousLandmarks": "Vallée de Mai",
+      "countryCode": "SYC"
+    },
+    {
+      "name": "Switzerland",
+      "policeNumber": "Call 117",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Swiss Guard Dog",
+      "famousLandmarks": "Matterhorn",
+      "countryCode": "CHE"
+    },
+    {
+      "name": "South Korea",
+      "policeNumber": "Call 112",
+      "majorReligion": "None",
+      "fireBrigadeNumber": "Call 119",
+      "nationalAnimal": "Korean Magpie",
+      "famousLandmarks": "Gyeongbokgung Palace",
+      "countryCode": "KOR"
+    },
+    {
+      "name": "United States Virgin Islands",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Green-throated Carib",
+      "famousLandmarks": "Magens Bay",
+      "countryCode": "VIR"
+    },
+    {
+      "name": "Tunisia",
+      "policeNumber": "Call 197",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 198",
+      "nationalAnimal": "Fennec Fox",
+      "famousLandmarks": "Carthage",
+      "countryCode": "TUN"
+    },
+    {
+      "name": "Bouvet Island",
+      "policeNumber": "N/A",
+      "majorReligion": "N/A",
+      "fireBrigadeNumber": "N/A",
+      "nationalAnimal": "Southern Elephant Seal",
+      "famousLandmarks": "Olavtoppen",
+      "countryCode": "BVT"
+    },
+    {
+      "name": "Iran",
+      "policeNumber": "Call 110",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 125",
+      "nationalAnimal": "Asiatic Cheetah",
+      "famousLandmarks": "Persepolis",
+      "countryCode": "IRN"
+    },
+    {
+      "name": "Jordan",
+      "policeNumber": "Call 911",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Arabian Oryx",
+      "famousLandmarks": "Petra",
+      "countryCode": "JOR"
+    },
+    {
+      "name": "Réunion",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Dodo",
+      "famousLandmarks": "Piton de la Fournaise",
+      "countryCode": "REU"
+    },
+    {
+      "name": "Turkey",
+      "policeNumber": "Call 155",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 110",
+      "nationalAnimal": "Gray Wolf",
+      "famousLandmarks": "Hagia Sophia",
+      "countryCode": "TUR"
+    },
+    {
+      "name": "Tanzania",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 114",
+      "nationalAnimal": "Giraffe",
+      "famousLandmarks": "Mount Kilimanjaro",
+      "countryCode": "TZA"
+    },
+    {
+      "name": "Ukraine",
+      "policeNumber": "Call 102",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Wisent",
+      "famousLandmarks": "Kiev Pechersk Lavra",
+      "countryCode": "UKR"
+    },
+    {
+      "name": "Mauritius",
+      "policeNumber": "Call 999",
+      "majorReligion": "Hinduism",
+      "fireBrigadeNumber": "Call 115",
+      "nationalAnimal": "Dodo",
+      "famousLandmarks": "Le Morne Brabant",
+      "countryCode": "MUS"
+    },
+    {
+      "name": "Somalia",
+      "policeNumber": "Call 888",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 888",
+      "nationalAnimal": "Leopard",
+      "famousLandmarks": "Laas Geel",
+      "countryCode": "SOM"
+    },
+    {
+      "name": "Guinea",
+      "policeNumber": "Call 117",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "African Elephant",
+      "famousLandmarks": "Mount Nimba Strict Nature Reserve",
+      "countryCode": "GIN"
+    },
+    {
+      "name": "French Guiana",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Jaguar",
+      "famousLandmarks": "Îles du Salut",
+      "countryCode": "GUF"
+    },
+    {
+      "name": "Marshall Islands",
+      "policeNumber": "Call 625",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 625",
+      "nationalAnimal": "N/A",
+      "famousLandmarks": "Laura Beach",
+      "countryCode": "MHL"
+    },
+    {
+      "name": "Solomon Islands",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 988",
+      "nationalAnimal": "Eclectus Parrot",
+      "famousLandmarks": "Honiara",
+      "countryCode": "SLB"
+    },
+    {
+      "name": "United States Minor Outlying Islands",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Bald Eagle",
+      "famousLandmarks": "Palmyra Atoll",
+      "countryCode": "UMI"
+    },
+    {
+      "name": "Lithuania",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "White Stork",
+      "famousLandmarks": "Trakai Island Castle",
+      "countryCode": "LTU"
+    },
+    {
+      "name": "Slovakia",
+      "policeNumber": "Call 158",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 150",
+      "nationalAnimal": "White Stork",
+      "famousLandmarks": "Bratislava Castle",
+      "countryCode": "SVK"
+    },
+    {
+      "name": "Nauru",
+      "policeNumber": "Call 110",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 110",
+      "nationalAnimal": "Nauru Reed Warbler",
+      "famousLandmarks": "Anibare Bay",
+      "countryCode": "NRU"
+    },
+    {
+      "name": "Dominican Republic",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Palmchat",
+      "famousLandmarks": "Santo Domingo",
+      "countryCode": "DOM"
+    },
+    {
+      "name": "Iraq",
+      "policeNumber": "Call 104",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 104",
+      "nationalAnimal": "Goat",
+      "famousLandmarks": "Hatra",
+      "countryCode": "IRQ"
+    },
+    {
+      "name": "El Salvador",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 913",
+      "nationalAnimal": "Torogoz",
+      "famousLandmarks": "Ruta de Las Flores",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "Venezuela",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 171",
+      "nationalAnimal": "Venezuelan Troupial",
+      "famousLandmarks": "Angel Falls",
+      "currencyCode": "VES"
+    },
+    {
+      "name": "Zimbabwe",
+      "policeNumber": "Call 995",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 994",
+      "nationalAnimal": "Sable Antelope",
+      "famousLandmarks": "Victoria Falls",
+      "currencyCode": "ZWL"
+    },
+    {
+      "name": "Sweden",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Eurasian Elk",
+      "famousLandmarks": "Stockholm Palace",
+      "currencyCode": "SEK"
+    },
+    {
+      "name": "Thailand",
+      "policeNumber": "Call 191",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 199",
+      "nationalAnimal": "Elephant",
+      "famousLandmarks": "Wat Arun",
+      "currencyCode": "THB"
+    },
+    {
+      "name": "Timor-Leste",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 115",
+      "nationalAnimal": "Crocodile",
+      "famousLandmarks": "Cristo Rei of Dili",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "policeNumber": "Call 122",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 123",
+      "nationalAnimal": "Brown Bear",
+      "famousLandmarks": "Stari Most",
+      "currencyCode": "BAM"
+    },
+    {
+      "name": "Guinea-Bissau",
+      "policeNumber": "Call 117",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "African Fish Eagle",
+      "famousLandmarks": "Orango Islands National Park",
+      "currencyCode": "XOF"
+    },
+    {
+      "name": "Montserrat",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Mountain Chicken",
+      "famousLandmarks": "Soufrière Hills",
+      "currencyCode": "XCD"
+    },
+    {
+      "name": "Dominica",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Imperial Amazon",
+      "famousLandmarks": "Boiling Lake",
+      "currencyCode": "XCD"
+    },
+    {
+      "name": "Falkland Islands",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Striated Caracara",
+      "famousLandmarks": "Stanley",
+      "currencyCode": "FKP"
+    },
+    {
+      "name": "Caribbean Netherlands",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Caribbean Flamingo",
+      "famousLandmarks": "Bonaire National Marine Park",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "Djibouti",
+      "policeNumber": "Call 17",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Dorcas Gazelle",
+      "famousLandmarks": "Lake Assal",
+      "currencyCode": "DJF"
+    },
+    {
+      "name": "Antarctica",
+      "policeNumber": "N/A",
+      "majorReligion": "N/A",
+      "fireBrigadeNumber": "N/A",
+      "nationalAnimal": "Antarctic Krill",
+      "famousLandmarks": "South Pole",
+      "currencyCode": "N/A"
+    },
+    {
+      "name": "Haiti",
+      "policeNumber": "Call 114",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Hispaniolan Trogon",
+      "famousLandmarks": "Citadelle Laferrière",
+      "currencyCode": "HTG"
+    },
+    {
+      "name": "Comoros",
+      "policeNumber": "Call 17",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Coelacanth",
+      "famousLandmarks": "Mount Karthala",
+      "currencyCode": "KMF"
+    },
+    {
+      "name": "Italy",
+      "policeNumber": "Call 113",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 115",
+      "nationalAnimal": "Italian Wolf",
+      "famousLandmarks": "Colosseum",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Belarus",
+      "policeNumber": "Call 102",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Wisent",
+      "famousLandmarks": "Brest Fortress",
+      "currencyCode": "BYN"
+    },
+    {
+      "name": "Cayman Islands",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Grand Cayman Parrot",
+      "famousLandmarks": "Stingray City",
+      "currencyCode": "KYD"
+    },
+    {
+      "name": "France",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Gallic Rooster",
+      "famousLandmarks": "Eiffel Tower",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Senegal",
+      "policeNumber": "Call 17",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Gorée Island",
+      "currencyCode": "XOF"
+    },
+    {
+      "name": "China",
+      "policeNumber": "Call 110",
+      "majorReligion": "Irreligion",
+      "fireBrigadeNumber": "Call 119",
+      "nationalAnimal": "Giant Panda",
+      "famousLandmarks": "Great Wall of China",
+      "currencyCode": "CNY"
+    },
+    {
+      "name": "Sudan",
+      "policeNumber": "Call 999",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Secretary Bird",
+      "famousLandmarks": "Meroë",
+      "currencyCode": "SDG"
+    },
+    {
+      "name": "Oman",
+      "policeNumber": "Call 999",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Arabian Oryx",
+      "famousLandmarks": "Sultan Qaboos Grand Mosque",
+      "currencyCode": "OMR"
+    },
+    {
+      "name": "United Kingdom",
+      "policeNumber": "Call 999",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 999",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Big Ben",
+      "currencyCode": "GBP"
+    },
+    {
+      "name": "Mexico",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Golden Eagle",
+      "famousLandmarks": "Chichen Itza",
+      "currencyCode": "MXN"
+    },
+
+    {
+      "name": "Australia",
+      "policeNumber": "Call 000",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 000",
+      "nationalAnimal": "Red Kangaroo",
+      "famousLandmarks": "Sydney Opera House",
+      "currencyCode": "AUD"
+    },
+    {
+      "name": "Cuba",
+      "policeNumber": "Call 106",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 105",
+      "nationalAnimal": "Cuban Crocodile",
+      "famousLandmarks": "Havana",
+      "currencyCode": "CUP"
+    },
+    {
+      "name": "Estonia",
+      "policeNumber": "Call 112",
+      "majorReligion": "None",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Barn Swallow",
+      "famousLandmarks": "Tallinn Old Town",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Eritrea",
+      "policeNumber": "Call 116",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 118",
+      "nationalAnimal": "Camel",
+      "famousLandmarks": "Dahlak Archipelago",
+      "currencyCode": "ERN"
+    },
+    {
+      "name": "Bulgaria",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Rila Monastery",
+      "currencyCode": "BGN"
+    },
+    {
+      "name": "Romania",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Lion",
+      "famousLandmarks": "Bran Castle",
+      "currencyCode": "RON"
+    },
+    {
+      "name": "Micronesia",
+      "policeNumber": "Call 911",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "N/A",
+      "famousLandmarks": "Lelu Ruins",
+      "currencyCode": "USD"
+    },
+    {
+      "name": "Vanuatu",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Tusked Wombat",
+      "famousLandmarks": "Mount Yasur",
+      "currencyCode": "VUV"
+    },
+    {
+      "name": "Syria",
+      "policeNumber": "Call 112",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Cheetah",
+      "famousLandmarks": "Umayyad Mosque",
+      "currencyCode": "SYP"
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "São Tomé Shrew",
+      "famousLandmarks": "Obo National Park",
+      "currencyCode": "STN"
+    },
+    {
+      "name": "Germany",
+      "policeNumber": "Call 110",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Golden Eagle",
+      "famousLandmarks": "Brandenburg Gate",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "New Zealand",
+      "policeNumber": "Call 111",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 111",
+      "nationalAnimal": "Kiwi",
+      "famousLandmarks": "Fiordland National Park",
+      "currencyCode": "NZD"
+    },
+    {
+      "name": "Angola",
+      "policeNumber": "Call 113",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 115",
+      "nationalAnimal": "Red Sable",
+      "famousLandmarks": "Kalandula Falls",
+      "currencyCode": "AOA"
+    },
+    {
+      "name": "Christmas Island",
+      "policeNumber": "Call 000",
+      "majorReligion": "Buddhism",
+      "fireBrigadeNumber": "Call 000",
+      "nationalAnimal": "Red Crab",
+      "famousLandmarks": "Dolly Beach",
+      "currencyCode": "AUD"
+    },
+    {
+      "name": "Aruba",
+      "policeNumber": "Call 100",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 911",
+      "nationalAnimal": "Burrowing Owl",
+      "famousLandmarks": "California Lighthouse",
+      "currencyCode": "AWG"
+    },
+    {
+      "name": "India",
+      "policeNumber": "Call 112",
+      "majorReligion": "Hinduism",
+      "fireBrigadeNumber": "Call 101",
+      "nationalAnimal": "Bengal Tiger",
+      "famousLandmarks": "Taj Mahal",
+      "currencyCode": "INR"
+    },
+    {
+      "name": "Malaysia",
+      "policeNumber": "Call 999",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 994",
+      "nationalAnimal": "Malayan Tiger",
+      "famousLandmarks": "Petronas Twin Towers",
+      "currencyCode": "MYR"
+    },
+    {
+      "name": "Georgia",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Barn Swallow",
+      "famousLandmarks": "Svetitskhoveli Cathedral",
+      "currencyCode": "GEL"
+    },
+    {
+      "name": "New Caledonia",
+      "policeNumber": "Call 17",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Cagou",
+      "famousLandmarks": "Lagoons of New Caledonia",
+      "currencyCode": "XPF"
+    },
+    {
+      "name": "Libya",
+      "policeNumber": "Call 1515",
+      "majorReligion": "Islam",
+      "fireBrigadeNumber": "Call 151",
+      "nationalAnimal": "Barbary Lion",
+      "famousLandmarks": "Leptis Magna",
+      "currencyCode": "LYD"
+    },
+    {
+      "name": "Åland Islands",
+      "policeNumber": "Call 112",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 112",
+      "nationalAnimal": "Mute Swan",
+      "famousLandmarks": "Kastelholm Castle",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Martinique",
+      "policeNumber": "Call 17",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 18",
+      "nationalAnimal": "Pelican",
+      "famousLandmarks": "Mount Pelée",
+      "currencyCode": "EUR"
+    },
+    {
+      "name": "Brazil",
+      "policeNumber": "Call 190",
+      "majorReligion": "Christianity",
+      "fireBrigadeNumber": "Call 193",
+      "nationalAnimal": "Jaguar",
+      "famousLandmarks": "Christ the Redeemer",
+      "currencyCode": "BRL"
+    }
+
+  ]

@@ -1,0 +1,470 @@
+[
+  {
+      "name": "Pakistan",
+      "networkProviders":  [
+    {
+      "name": "Telenor",
+      "helpline": "345",
+      "recharge": "*555*14 digitCard #",
+      "balanceInquiry": "*444#",
+      "minutesInquiry": "*222#",
+      "mbsInquiry": "*999#",
+      "smsInquiry": "*111#",
+      "findMyNumber": "*7421#",
+      "baseCode": "34"
+    },
+    {
+      "name": "Ufone",
+      "helpline": "333",
+      "recharge": "*123*14 digitCard #",
+      "balanceInquiry": "*124#",
+      "minutesInquiry": "*707#",
+      "mbsInquiry": "*706#",
+      "smsInquiry": "*336*2#",
+      "findMyNumber": "*780*3#",
+      "baseCode": "33"
+    },
+    {
+      "name": "Zong",
+      "helpline": "310",
+      "recharge": "*101*14 digitCard #",
+      "balanceInquiry": "*222#",
+      "minutesInquiry": "*222*2#",
+      "mbsInquiry": "*102#",
+      "smsInquiry": "*102*3#",
+      "findMyNumber": "*8#",
+      "baseCode": "31"
+    },
+    {
+      "name": "Warid",
+      "helpline": "321",
+      "recharge": "*123*14 digitCard #",
+      "balanceInquiry": "*100#",
+      "minutesInquiry": "*200#",
+      "mbsInquiry": "*443#",
+      "smsInquiry": "*101*1#",
+      "findMyNumber": "*321*8#",
+      "baseCode": "32"
+    },
+    {
+      "name": "Jazz",
+      "helpline": "111",
+      "recharge": "*123*14 digitCard #",
+      "balanceInquiry": "*111#",
+      "minutesInquiry": "*111*2#",
+      "mbsInquiry": "*114*1*2#",
+      "smsInquiry": "*101*2#",
+      "findMyNumber": "*99#",
+      "baseCode": "30"
+    }
+  ]
+}
+,
+{
+      "name": "India",
+      "networkProviders": [
+        
+        {
+          "name": "Reliance Jio",
+          "helpline": "198",
+          "recharge": "*<14-digit PIN>#",
+          "balanceInquiry": "*333#",
+          "minutesInquiry": "1299",
+          "mbsInquiry": "1299",
+          "smsInquiry": "1299",
+          "findMyNumber": "199",
+          "baseCode": "1299"
+        },
+        {
+          "name": "Vodafone Idea",
+          "helpline": "199",
+          "recharge": "*<16-digit PIN>#",
+          "balanceInquiry": "199",
+          "minutesInquiry": "199",
+          "mbsInquiry": "199",
+          "smsInquiry": "199",
+          "findMyNumber": "199",
+          "baseCode": "199"
+        },
+        {
+          "name": "BSNL",
+          "helpline": "1503",
+          "recharge": "*123*<16-digit PIN>#",
+          "balanceInquiry": "124",
+          "minutesInquiry": "124",
+          "mbsInquiry": "124",
+          "smsInquiry": "123",
+          "findMyNumber": "24365",
+          "baseCode": "124"
+        },
+        {
+          "name": "MTNL",
+          "helpline": "1500",
+          "recharge": "Visit MTNL website or local store",
+          "balanceInquiry": "1503",
+          "minutesInquiry": "1503",
+          "mbsInquiry": "1503",
+          "smsInquiry": "1503",
+          "findMyNumber": "1503",
+          "baseCode": "1503"
+        },
+        {
+          "name": "Airtel",
+          "helpline": "121",
+          "recharge": "*121*<16-digit PIN>#",
+          "balanceInquiry": "123",
+          "minutesInquiry": "121*2#",
+          "mbsInquiry": "121*2#",
+          "smsInquiry": "121",
+          "findMyNumber": "282",
+          "baseCode": "121"
+        },
+        {
+          "name": "Reliance Communications",
+          "helpline": "198",
+          "recharge": "Visit Reliance store",
+          "balanceInquiry": "198",
+          "minutesInquiry": "198",
+          "mbsInquiry": "198",
+          "smsInquiry": "198",
+          "findMyNumber": "198",
+          "baseCode": "198"
+        }
+      ]
+    },
+    
+{
+      "name": "France",
+      "networkProviders": [
+        {
+          "name": "SFR",
+          "helpline": "1023",
+          "recharge": "*122*<14_digit_card_number>#",
+          "balanceInquiry": "950",
+          "minutesInquiry": "944",
+          "mbsInquiry": "959",
+          "smsInquiry": "123",
+          "findMyNumber": "123#",
+          "baseCode": "33"
+        },
+        {
+          "name": "Orange",
+          "helpline": "3900",
+          "recharge": "#123#<14_digit_card_number>#",
+          "balanceInquiry": "123#",
+          "minutesInquiry": "#123#",
+          "mbsInquiry": "#123#",
+          "smsInquiry": "#123#",
+          "findMyNumber": "225",
+          "baseCode": "224"
+        },
+        {
+          "name": "Bouygues Telecom",
+          "helpline": "1061",
+          "recharge": "*123*<14_digit_card_number>#",
+          "balanceInquiry": "660",
+          "minutesInquiry": "611",
+          "mbsInquiry": "612",
+          "smsInquiry": "614",
+          "findMyNumber": "637",
+          "baseCode": "33"
+        },
+        {
+          "name": "Free",
+          "helpline": "3244",
+          "recharge": "*132*<14_digit_card_number>#",
+          "balanceInquiry": "555",
+          "minutesInquiry": "555",
+          "mbsInquiry": "555",
+          "smsInquiry": "555",
+          "findMyNumber": "666",
+          "baseCode": "34"
+        },
+        {
+          "name": "La Poste Mobile",
+          "helpline": "904",
+          "recharge": "*234*<14_digit_card_number>#",
+          "balanceInquiry": "555",
+          "minutesInquiry": "555",
+          "mbsInquiry": "555",
+          "smsInquiry": "555",
+          "findMyNumber": "555",
+          "baseCode": "39"
+        },
+        {
+          "name": "Lebara mobile",
+          "helpline": "093",
+          "recharge": "*232*<14_digit_card_number>#",
+          "balanceInquiry": "121",
+          "minutesInquiry": "132",
+          "mbsInquiry": "144",
+          "smsInquiry": "155",
+          "findMyNumber": "150",
+          "baseCode": "33"
+        },
+        {
+          "name": "Prixtel",
+          "helpline": "09 70 70 07 78",
+          "recharge": "*141*<14_digit_card_number>#",
+          "balanceInquiry": "999",
+          "minutesInquiry": "999",
+          "mbsInquiry": "999",
+          "smsInquiry": "999",
+          "findMyNumber": "999",
+          "baseCode": "33"
+        },
+        {
+          "name": "Afone Mobile",
+          "helpline": "04 92 90 90 90",
+          "recharge": "*101*<14_digit_card_number>#",
+          "balanceInquiry": "101",
+          "minutesInquiry": "101",
+          "mbsInquiry": "101",
+          "smsInquiry": "101",
+          "findMyNumber": "101",
+          "baseCode": "33"
+        },
+        {
+          "name": "Altice France",
+          "helpline": "01 85 06 00 01",
+          "recharge": "*111*<14_digit_card_number>#",
+          "balanceInquiry": "555",
+          "minutesInquiry": "555",
+          "mbsInquiry": "555",
+          "smsInquiry": "555",
+          "findMyNumber": "555",
+          "baseCode": "33"
+        }
+      ]
+    },
+{
+      "name": "Germany",
+      "networkProviders": [
+        {
+          "name": "Lebara",
+          "helpline": "123",
+          "recharge": "*#123#",
+          "balanceInquiry": "124",
+          "minutesInquiry": "125",
+          "mbsInquiry": "126",
+          "smsInquiry": "127",
+          "findMyNumber": "128",
+          "baseCode": "129"
+        },
+        {
+          "name": "Vodafone",
+          "helpline": "12345",
+          "recharge": "*100*<voucher code>#",
+          "balanceInquiry": "100",
+          "minutesInquiry": "102",
+          "mbsInquiry": "103",
+          "smsInquiry": "104",
+          "findMyNumber": "105",
+          "baseCode": "106"
+        },
+        {
+          "name": "O2 (Contract)",
+          "helpline": "198",
+          "recharge": "Not available",
+          "balanceInquiry": "199",
+          "minutesInquiry": "200",
+          "mbsInquiry": "201",
+          "smsInquiry": "202",
+          "findMyNumber": "203",
+          "baseCode": "204"
+        },
+        {
+          "name": "Blau",
+          "helpline": "1155",
+          "recharge": "*100#",
+          "balanceInquiry": "101",
+          "minutesInquiry": "102",
+          "mbsInquiry": "103",
+          "smsInquiry": "104",
+          "findMyNumber": "105",
+          "baseCode": "106"
+        },
+        {
+          "name": "Telekom",
+          "helpline": "2202",
+          "recharge": "Not available",
+          "balanceInquiry": "2000",
+          "minutesInquiry": "2001",
+          "mbsInquiry": "2002",
+          "smsInquiry": "2003",
+          "findMyNumber": "2004",
+          "baseCode": "2005"
+        },
+        {
+          "name": "O2 (Prepaid)",
+          "helpline": "5667",
+          "recharge": "*102*<voucher code>#",
+          "balanceInquiry": "1155",
+          "minutesInquiry": "1166",
+          "mbsInquiry": "1177",
+          "smsInquiry": "1188",
+          "findMyNumber": "1199",
+          "baseCode": "1200"
+        },
+        {
+          "name": "Smartmobil.de",
+          "helpline": "06181 7074",
+          "recharge": "*100#",
+          "balanceInquiry": "100",
+          "minutesInquiry": "101",
+          "mbsInquiry": "102",
+          "smsInquiry": "103",
+          "findMyNumber": "104",
+          "baseCode": "105"
+        }
+      ]
+    },
+{
+      "name": "Azerbaijan",
+      "networkProviders": [
+        {
+          "name": "Azercell",
+          "helpline": "611",
+          "recharge": "*777*14 digitCard #",
+          "balanceInquiry": "*100#",
+          "minutesInquiry": "*100*1#",
+          "mbsInquiry": "*100*2#",
+          "smsInquiry": "*100*3#",
+          "findMyNumber": "*100*4#",
+          "baseCode": "77"
+        },
+        {
+          "name": "Bakcell",
+          "helpline": "133",
+          "recharge": "*100*<14_digit_card#>",
+          "balanceInquiry": "100",
+          "minutesInquiry": "100",
+          "mbsInquiry": "100",
+          "smsInquiry": "100",
+          "findMyNumber": "100",
+          "baseCode": "100"
+        },
+        {
+          "name": "Nar",
+          "helpline": "990",
+          "recharge": "*100*14 digitCard #",
+          "balanceInquiry": "100",
+          "minutesInquiry": "111",
+          "mbsInquiry": "123",
+          "smsInquiry": "100",
+          "findMyNumber": "100",
+          "baseCode": "123"
+        }
+      ]
+    },
+{
+      "name": "Turkey",
+      "networkProviders": [
+        {
+          "name": "Turkcell",
+          "helpline": "532",
+          "recharge": "*123*14 digitCard#",
+          "balanceInquiry": "*123#",
+          "minutesInquiry": "*123*1#",
+          "mbsInquiry": "*123*2#",
+          "smsInquiry": "*123*3#",
+          "findMyNumber": "*123*7#",
+          "baseCode": "123"
+        },
+        {
+          "name": "Vodafone Turkey",
+          "helpline": "542",
+          "recharge": "*123*14 digitCard#",
+          "balanceInquiry": "*123#",
+          "minutesInquiry": "*123*1#",
+          "mbsInquiry": "*123*2#",
+          "smsInquiry": "*123*3#",
+          "findMyNumber": "*123*7#",
+          "baseCode": "123"
+        },
+        {
+          "name": "Turk Telekom",
+          "helpline": "444",
+          "recharge": "*123*14 digitCard#",
+          "balanceInquiry": "*123#",
+          "minutesInquiry": "*123*1#",
+          "mbsInquiry": "*123*2#",
+          "smsInquiry": "*123*3#",
+          "findMyNumber": "*123*7#",
+          "baseCode": "123"
+        },
+        {
+          "name": "Bimcell",
+          "helpline": "1211",
+          "recharge": "*123*14 digitCard#",
+          "balanceInquiry": "*123#",
+          "minutesInquiry": "*123*1#",
+          "mbsInquiry": "*123*2#",
+          "smsInquiry": "*123*3#",
+          "findMyNumber": "*123*7#",
+          "baseCode": "123"
+        },
+        {
+          "name": "Lifecell",
+          "helpline": "533",
+          "recharge": "*123*14 digitCard#",
+          "balanceInquiry": "*123#",
+          "minutesInquiry": "*123*1#",
+          "mbsInquiry": "*123*2#",
+          "smsInquiry": "*123*3#",
+          "findMyNumber": "*123*7#",
+          "baseCode": "123"
+        }
+      ]
+    },
+{
+      "name": "Romania",
+      "networkProviders": [
+        {
+          "name": "Digi Mobil (RCS & RDS)",
+          "helpline": "123",
+          "recharge": "*100*rechargeCode#",
+          "balanceInquiry": "*102#",
+          "minutesInquiry": "*102#",
+          "mbsInquiry": "*102#",
+          "smsInquiry": "*102#",
+          "findMyNumber": "123",
+          "baseCode": "102"
+        },
+        {
+          "name": "Telekom Romania",
+          "helpline": "1234",
+          "recharge": "*123*rechargeCode#",
+          "balanceInquiry": "*123#",
+          "minutesInquiry": "*123#",
+          "mbsInquiry": "*123#",
+          "smsInquiry": "*123#",
+          "findMyNumber": "1234",
+          "baseCode": "123"
+        },
+        {
+          "name": "Vodafone Romania",
+          "helpline": "222",
+          "recharge": "*123*rechargeCode#",
+          "balanceInquiry": "*100#",
+          "minutesInquiry": "*100#",
+          "mbsInquiry": "*100#",
+          "smsInquiry": "*100#",
+          "findMyNumber": "222",
+          "baseCode": "100"
+        },
+        {
+          "name": "Orange Romania",
+          "helpline": "333",
+          "recharge": "*123*rechargeCode#",
+          "balanceInquiry": "*100#",
+          "minutesInquiry": "*100#",
+          "mbsInquiry": "*100#",
+          "smsInquiry": "*100#",
+          "findMyNumber": "333",
+          "baseCode": "100"
+        }
+      ]
+    }
+]
+
