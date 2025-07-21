@@ -81,7 +81,6 @@ import com.google.android.gms.maps.GoogleMap
 
          setupListeners()
          loadMap()
-         initi()
      }
 
      private fun setupListeners() {
@@ -104,7 +103,6 @@ import com.google.android.gms.maps.GoogleMap
          }
      }
 
-	private fun initi() {}
 
      private fun getNumber() {
          val phone = binding.numberET.text.toString()

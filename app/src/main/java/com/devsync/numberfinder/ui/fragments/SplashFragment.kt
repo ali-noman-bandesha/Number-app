@@ -38,6 +38,10 @@ class SplashFragment : Fragment() {
 //
 //            Log.d(TAG, "onCreateView: new ")
 //
+
+
+
+
 //        }
 //        else{
 //            Log.d(TAG, "onCreateView: first")
